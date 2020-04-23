@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  wordpress-test:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-04-23T10:33:33.928293+10:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    deprecated: true
+    description: UPDATED Web publishing platform for building blogs and websites.
+    digest: 0f9e4b22d0bc4159201b71f1fbf5300b409a556d489cfd24390c890fed62ef74
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress-test
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-test-9.0.2.tgz
+    version: 9.0.2
+generated: "2020-04-23T10:33:33.923335+10:00"
